@@ -494,7 +494,7 @@ src="https://www.facebook.com/tr?id=421518136921956&ev=PageView&noscript=1"
                     .then(data => {
                         console.log('Success:', data);
                         // Після успішної відправки, одразу перенаправляємо на сторінку "Дякую"
-                        window.location.href = "./komar_files/thank_you_page.html"; 
+                        window.location.href = "https://ukrainetovar.github.io/katalogtovariv/"; 
                     })
                     .catch((error) => {
                         console.error('Error:', error);
@@ -508,7 +508,7 @@ src="https://www.facebook.com/tr?id=421518136921956&ev=PageView&noscript=1"
 
 
 
-        <form id="order_form_custom" class="main-order-form m1-form" action="./komar_files/thank_you_page.html" method="post" onsubmit="if(!this.name.value){alert(&#39;Введіть ваше ім\&#39;я!&#39;);return false}if(!this.phone.value){alert(&#39;Введіть Ваш номер телефону!&#39;);return false}return true;" onsubmit="fbq(&#39;track&#39;, &#39;Lead&#39;); return true;">
+        <form id="order_form_custom" class="main-order-form m1-form" action="https://ukrainetovar.github.io/katalogtovariv/" method="post" onsubmit="if(!this.name.value){alert(&#39;Введіть ваше ім\&#39;я!&#39;);return false}if(!this.phone.value){alert(&#39;Введіть Ваш номер телефону!&#39;);return false}return true;" onsubmit="fbq(&#39;track&#39;, &#39;Lead&#39;); return true;">
             
             <input class="field" name="name" type="text" placeholder="Введіть ваше ім&#39;я" required="">
             <input class="field" name="phone" type="tel" placeholder="Введіть ваш телефон" required="" maxlength="13">
